@@ -82,25 +82,40 @@ body{
 .logo_2{
 	float: left;
 }
-.logo_2 i{
-	font-size: 30px;
-	clear: red;
-	display: inline-block;
+.logo_2 i {
+    font-size: 54px;
+    display: inline-block;
+    margin-left: 100px;
+    color: gray;
 }
 .main-menu{
 	float: right;
+}
+.main-menu .menu{
+	border-left: 1px dotted #000;
+	border-bottom: 1px dotted #000;
+	border-right: 1px dotted #000;
 }
 .main-menu .menu .list-item{
 	list-style-type: none;
 	display: inline-block;
 	margin-left: 10px;
 	border-left: 1px dotted #000;
-	border-bottom: 1px dotted #000;
-	border-right: 1px dotted #000;
 	padding: 5px 55px;
+}
+.main-menu .menu .list-item:first-child{
+	border-left: none;
 }
 
 .main-menu .menu .list-item a{
 	text-decoration: none;
+	color: gray;
+	
+}
+
+
+/*banner_3*/
+
+.banner_3 .mujib{
 	
 }
