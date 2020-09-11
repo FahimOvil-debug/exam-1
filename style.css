@@ -2,6 +2,8 @@
 body{
 	padding: 0;
 	margin: 0;
+	list-style-type: none;
+	text-decoration: none;
 	
 }
 .header-area{
@@ -46,4 +48,59 @@ body{
 }
 .header-area .right-area{
 	float: right;
+}
+
+/*banner area*/
+.banner{
+	width: 100%;
+	position: relative;
+}
+.logo{
+	display: flex;
+	position: absolute;
+	top: 238px;
+	left: 20px;
+}
+.l-img{
+	margin-left: 115px;
+}
+.logo h1{
+	margin-left: 25px;
+	color: #ffffff;
+}
+
+.banner_2{
+	padding-top: 10px;
+}
+.banner_2 img{
+	width: 100%;
+}
+
+
+
+/*menu area*/
+.logo_2{
+	float: left;
+}
+.logo_2 i{
+	font-size: 30px;
+	clear: red;
+	display: inline-block;
+}
+.main-menu{
+	float: right;
+}
+.main-menu .menu .list-item{
+	list-style-type: none;
+	display: inline-block;
+	margin-left: 10px;
+	border-left: 1px dotted #000;
+	border-bottom: 1px dotted #000;
+	border-right: 1px dotted #000;
+	padding: 5px 55px;
+}
+
+.main-menu .menu .list-item a{
+	text-decoration: none;
+	
 }
