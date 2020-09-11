@@ -4,16 +4,46 @@ body{
 	margin: 0;
 	
 }
-.header-area{}
+.header-area{
+	overflow: hidden;
+	background-color: #575fcf;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
 .header-area .left-area{
 	float: left;
+}
+.header-area .left-area i{
+	color: #ffffff;
+	font-size: 20px;
 }
 .header-area .left-area span{
 	list-style-type: none;
 	text-decoration: none;
 	display: inline-block;
+	margin-left: 5px;
+	color: #ffffff;
+}
+.header-area .right-area .src{
+	width: 110px;
+	border: 1px solid #ffffff;
+}
+.header-area .right-area .search{
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffffff;
+	background-color: green;
+	border: 1px solid green;
+	padding: 5px 15px;
+	cursor: pointer;
+}
+.header-area .right-area .eng{
+	font-size: 18px;
+	font-weight: 500;
+	color: black;
+	background-color: #ffffff;
+	padding: 5px 15px;
 }
 .header-area .right-area{
 	float: right;
 }
-.header-area{}
