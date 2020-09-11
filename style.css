@@ -1,0 +1,19 @@
+
+body{
+	padding: 0;
+	margin: 0;
+	
+}
+.header-area{}
+.header-area .left-area{
+	float: left;
+}
+.header-area .left-area span{
+	list-style-type: none;
+	text-decoration: none;
+	display: inline-block;
+}
+.header-area .right-area{
+	float: right;
+}
+.header-area{}
