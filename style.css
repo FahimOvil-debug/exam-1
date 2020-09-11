@@ -142,3 +142,73 @@ body{
 	font-size: 50px;
 	text-align: center;
 }
+
+
+/*notice-area*/
+.notice-full{
+	display: flex;
+}
+.notice-area{
+	border: 1px solid #000;
+	width: 60%;
+	margin: 0px 100px;
+
+
+}
+.n-head h1 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 120px;
+}
+.notice-items ul{
+	margin-left: 130px;
+}
+.notice-items ul li{
+   border-bottom: 1px dotted #000;
+   list-style-type: none;
+}
+/*.notice-items ul li ::before{
+	content: "f0da"
+	font-family: Font Awesome 4;
+	width: 10px;
+	background-color: red;
+}*/
+.notice-items ul li:first-child{
+	width: 51%;
+}
+.notice-items ul li:nth-child(2){
+     width: 66%;
+}
+.notice-items ul li:nth-child(3){
+     width: 44%;
+}
+.notice-items ul li:nth-child(4){
+     width: 66%;
+}
+.notice-items ul li:nth-child(5){
+     width: 67%;
+}
+
+
+
+.marks h2{
+	font-size: 19px;
+    background: green;
+    margin-left: 0px;
+    color: #ffffff;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.marks span{
+	display: block;
+	font-size: 20px;
+	line-height: 30px;
+	color: green;
+}
+
+
+.flex{
+	display: flex;
+}
+
